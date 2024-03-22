@@ -61,7 +61,7 @@ function pad(num, size) {
     //TODO 3: After that inside the same loop,
     // call second API to fetch individual Pokémon.
     const response = await fetch(
-      "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20"
+      "https://pokeapi.co/api/v2/pokemon?offset=20&limit=51"
     );
     const pokemons = await response.json();
     const pokemonsDiv = document.getElementById("pokemons");
